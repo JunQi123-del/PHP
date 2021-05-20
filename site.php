@@ -19,7 +19,11 @@
 		echo "nice<br>";
 		echo "my name is $charName and my age is $charAge <br>";
 
-		
+
+		//Handling String
+		echo
+
+
 		?>
 		
 	</body>
