@@ -14,23 +14,16 @@
 		
 		<?php // <?php ..... anything run inside will be php script
         // Associate Array = key value pair
+        $results;
 
-		function sayhi(){
+		function cube($num){
 
-			echo "Hello User";
+			return $num^3; // return must be the last statementn if not the code after wonnt be executed.
 		}
 
-		function sayname($name){
-			echo "Hello $name";
-		}
-       
-		function nameNage($name,$age)
-		{
-			echo "my name is $name and my age is $age";
-		}
-		sayname("micheal");
-		nameNage(miky,21);
-		sayhi();
+		results = cube(4);
+		echo results; //or echo cube(3);
+		
         
 		
         
