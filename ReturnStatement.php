@@ -18,12 +18,13 @@
 
 		function cube($num){
 
-			return $num^3; // return must be the last statementn if not the code after wonnt be executed.
+			return $num*$num*$num; // return must be the last statementn if not the code after wonnt be executed.
 		}
 
-		results = cube(4);
-		echo results; //or echo cube(3);
-		
+		$results = cube(4);
+		echo $results; //or echo cube(3);
+		echo "<br>";
+		echo cube(4);
         
 		
         

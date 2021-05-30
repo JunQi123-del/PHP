@@ -29,7 +29,7 @@
 			echo "my name is $name and my age is $age";
 		}
 		sayname("micheal");
-		nameNage(miky,21);
+		nameNage("miky",21);
 		sayhi();
         
 		
